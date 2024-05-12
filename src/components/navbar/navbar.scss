@@ -1,0 +1,38 @@
+.navbar{
+    height: 100px;
+    // position: fixed;
+    // background-color: white;
+    
+    
+    
+    
+    .wrapper{
+        max-width: 1366px;
+        margin-left: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // background-color: rgb(41, 35, 48,0.5);
+        height: 100%;
+        margin-top: auto;
+        // padding-top: 10;
+        color: rgb(185, 80, 80);
+        
+        
+
+        span{
+            font-weight: bold;
+        }
+
+        .social{
+            display: flex;
+            gap: 20px;
+            margin-left: 450px;
+
+            img{
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+}

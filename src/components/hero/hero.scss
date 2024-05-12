@@ -1,0 +1,65 @@
+.hero {
+    height: calc(100vh - 100px);
+    // background-color: linear-gradient(180deg, #0c0c1d, #111132);
+    background-color: linear-gradient(180deg, #522247, #4c1f57);
+    // position: relative;
+}
+hr{
+    width: 30%;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    width: 100%;
+  }
+  .typewriter {
+    overflow: hidden; /* Hide overflow content */
+    border-right: 0.15em solid orange; /* Blinking cursor effect */
+    white-space: nowrap; /* Prevent text wrapping */
+    // margin : 0 auto; /* Center the text */
+    
+    letter-spacing: 0.15em; /* Space between letters */
+    animation: typing 5s steps(25) infinite, blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent; /* Hide cursor */
+    }
+    50% {
+      border-color: orange; /* Show cursor */
+    }
+  }
+  
+  h2{
+    color: rebeccapurple;
+    font-size: x-large;
+  }
+
+  .wrapper{
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    margin-left: 256px;
+  }
+
+  .slidingTextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom:-120px;
+    white-space: nowrap;
+    color: #ffffff09;
+  }

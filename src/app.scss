@@ -1,0 +1,64 @@
+html{
+    // scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans",sans-serif;
+}
+body{
+    background-color: #0c0c1d;
+    
+    font-size: xx-large;
+    color: wheat;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    width: fit-content;
+    height: 100vh;
+    scroll-snap-align: center;
+    margin-left: 30px;
+    
+}
+
+// .course{
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     .box{
+//         width: 200px;
+//         height: 200px;
+//         background-color:yellow;
+        
+//     }
+// }
+.Hero{
+    margin-right: 100px;
+    margin-left: 300px;
+    padding-top: 200px;
+    
+    // background-color: rgb(199, 232, 245,0.5);
+    
+}
+
+
+
+
+.story{
+    background-color: white;
+    background-size: cover;
+    color: #0c0c1d;
+}
+.services{
+    background-color: white;
+    background-size: cover;
+    color: #0c0c1d;
+}

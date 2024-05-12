@@ -1,0 +1,91 @@
+// ContactPage.scss
+// .wrapperContact{
+
+
+//   background-color: #ff5349;
+//   backdrop-filter:  blur(3px);
+  
+  
+
+
+// }
+
+
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:rgba(167, 111, 157, 0.5);
+ 
+  border-radius: 5px;
+
+  h1 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .contact-form {
+      display: flex;
+      flex-direction: column;
+
+      input,
+      textarea,
+      button {
+          margin-bottom: 15px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+          width: 100%;
+          font-size: 16px;
+      }
+
+      button {
+          background-color: #007bff;
+          color: #fff;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+              background-color: #0056b3;
+          }
+      }
+  }
+  
+
+
+.typewriter {
+    overflow: hidden; /* Hide overflow content */
+    border-right: 0.15em solid orange; /* Blinking cursor effect */
+    white-space: nowrap; /* Prevent text wrapping */
+    // margin : 0 auto; /* Center the text */
+    
+    letter-spacing: 0.15em; /* Space between letters */
+    animation: typing 5s steps(25) infinite, blink-caret 0.75s step-end infinite;
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent; /* Hide cursor */
+    }
+    50% {
+      border-color: orange; /* Show cursor */
+    }
+  }
+}
